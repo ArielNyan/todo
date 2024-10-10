@@ -1,0 +1,21 @@
+meta {
+  name: UPDATE PRODUCT
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:4000/api/products/123
+  body: json
+  auth: none
+}
+
+headers {
+  : 
+}
+
+body:json {
+  {
+    "name": "TV"
+  }
+}
