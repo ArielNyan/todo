@@ -30,8 +30,8 @@ const Navbar = () => {
         </Text>
         <HStack spacing={2} alignItems={'center'}>
           <Link to={'/create'}>
-            <Button>
-              <PlusSquareIcon fontSize={20}/>
+            <Button backgroundColor={'rgb(46, 33, 82)'}>
+              <PlusSquareIcon backgroundColor={'rgb(46, 33, 82)'} color={'white'} fontSize={20}/>
             </Button>
           </Link>
         </HStack>
